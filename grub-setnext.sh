@@ -28,10 +28,11 @@ while IFS= read -r entry; do
     echo "Setting next entry to \"${entry}\""
     if grub-editenv ${GRUB_ENV_PATH} set next_entry="${entry}"; then
       echo "Successfully set next menu entry"
+      exit 0
     else
       echo "Could not execute grub-editenv"
+      exit 1
     fi
-    exit 0
   fi
 done <<<"${MENU_ENTRIES}"
 
