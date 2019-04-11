@@ -10,8 +10,8 @@ By default it assumes the grub directory is in `/boot/grub`, you might want to m
 
 - Ensure you have all the required commands available
 - Clone the repository somewhere under your user directory
-  `git clone https://github.com/jamezrin/grub-reboot-windows`
-- Execute the script `install.sh`
-  `./install`
+  - Run in a terminal `git clone https://github.com/jamezrin/grub-reboot-windows`
+- Execute the install script
+  - Run in a terminal `./install.sh`
 - After that, make a shortcut of the `reboot-windows.desktop` file to the desktop
 - You are done, now if you double click that file it should ask for your user password and reboot
