@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Reboot to Windows
-Terminal=false
-Type=Application
-Exec=pkexec /home/jaime/Scripts/grub-reboot-windows/grub-reboot-windows.sh
-Icon=/home/jaime/Scripts/grub-reboot-windows/windows-logo.png
-Categories=Utility
